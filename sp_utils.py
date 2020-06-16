@@ -12,12 +12,12 @@ from shareplum.site import Version
 
 # \venv\lib\site-packages\shareplum\folder.py" Need change field timeout in __init__ to None
 
-# tenant_O365 = 'https://rgorgua.sharepoint.com/'
-# username_O365 = 'c2hwYWtAYXN0cmVsbGEuY29tLnVh'
-# password_O365 = 'MzNHamhuY2J1Zmhm'
-# site_O365_path = 'https://rgorgua.sharepoint.com/sites/astrella/'
-# shared_dir_path = 'Shared Documents/ИТ Служба/BackUps/Astrella/1C_UTP/'
-# local_dir_path = '//10.123.11.10/DB_backups/astrella/'
+# tenant: Tenant O365 - 'https://rgorgua.sharepoint.com/'
+# username: Login/email O365
+# password: Password O365
+# site_O365: Site O365 -  'https://rgorgua.sharepoint.com/sites/astrella/'
+# shared_folder: Shared folder an site - 'Shared Documents/ИТ Служба/BackUps/Astrella/1C_UTP/'
+# local_folder: Local folder an server - '//10.123.11.10/DB_backups/astrella/'
 
 def o365_login(tenant, username, password, site_o365, shared_folder):
     authcookie = Office365(tenant,
