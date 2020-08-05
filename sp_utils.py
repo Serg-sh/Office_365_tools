@@ -12,10 +12,10 @@ from shareplum.site import Version
 
 # \venv\lib\site-packages\shareplum\folder.py" Need change field timeout in __init__ to None
 
-# tenant: Tenant O365 - 'https://rgorgua.sharepoint.com/'
+# tenant: Tenant O365 -
 # username: Login/email O365
 # password: Password O365
-# site_O365: Site O365 -  'https://rgorgua.sharepoint.com/sites/astrella/'
+# site_O365: Site O365 -
 # shared_folder: Shared folder an site - 'Shared Documents/ИТ Служба/BackUps/Astrella/1C_UTP/'
 # local_folder: Local folder an server - '//10.123.11.10/DB_backups/astrella/'
 
